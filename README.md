@@ -1,26 +1,22 @@
 # music_enjoy（0.0.10）
 
 
+## Project Introduction
+
+I believe that everyone has such an experience, often inadvertently hear a certain song played by others, and become interested in it.
+
+Since I only remembered some lyrics, I opened Baidu and searched for the song. After finding the song name, I opened the network and searched for the song. Then the classics came, "I'm listening to the "xxx" song clips, and I have opened the VIP to listen to the full version." Exit this page now to avoid wasting valuable time).
+
+As a senior "white prostitute" netizen, I can only do it myself. Hence this simple python package.
+
+Since Wangyiyun has copyright, we can go to B station to search for related videos and listen to this song, but if you want to enjoy it with headphones anytime, you can't keep B station open in the background all the time, right? It's not good for listening to other songs either. So there is an idea: climb down the songs of station b and import them into NetEase cloud disk. This will really "listen to" ~~~
 
 
+## Instructions
 
-## 项目介绍
+### package installation
 
-相信大家都有这样一种经历，经常在不经意间听到别人放的某一首歌，并对此及其感兴趣。
-
-由于仅仅记住了一些歌词，于是打开百度搜索这首歌，找到了歌名后，打开网抑云搜索这首歌。然后经典来了，“正在试听「xxx」歌曲片段，开通 VIP 畅听完整版“ 血压瞬间上来了有木有啊（如果你是土豪，当我没说，如果你有各个音乐平台的VIP，请立即退出这个页面，以免浪费宝贵的时间）。
-
-作为一个资深的 ”白嫖“ 网民，我只能自己动手。于是就有了这个简单的 python 包。
-
-既然网抑云有版权，我们可以去 b站 搜索相关视频，听听这首歌，但是想要随时随刻得带上耳机畅享，总不能一直后台开着 b站 吧？这样也不利于听别的歌。于是有一个思路：把 b站 的歌爬下来，导入网易云云盘。这样就真正”畅听“了~~~
-
-
-
-## 使用方法
-
-### 包安装
-
-- 国内清华源
+- Domestic Tsinghua source
 
 ```shell
 pip install music_enjoy -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -28,7 +24,8 @@ pip install music_enjoy -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 
 
-### 使用实例
+### Usage example
+
 
 ```python
 import music_enjoy as me
@@ -42,22 +39,17 @@ me.bilibili(url=url, dest=dest, audio_or_video=audio_or_video)
 
 
 
+## Currently supported features
 
-
-## 目前支持功能
-
-### 哔哩哔哩弹幕网视频与音频的分开下载
-
-
-
-## 正在开发的功能
-
-### 音视频合成
-
-### 酷我、酷狗下载
+### Bilibili Barrage Network video and audio download separately
 
 
 
+## Features under development
+
+### Audio and video synthesis
+
+### Cool me, cool dog download
 
 
 ### 

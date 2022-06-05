@@ -30,9 +30,9 @@ pip install music_enjoy -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```python
 import music_enjoy as me
 
-url = 'https://www.bilibili.com/video/BV1aP4y177x2/?spm_id_from=autoNext' # 你的视频网址
-dest = './1.m4a' 			# 资源存放位置，可以是绝对路径或相对路径
-audio_or_video = 'audio' 	# 要下载音频还是视频（目前不支持同时下载，可分开下载后合成，一键下载功能目前正在开发当中）
+url = 'https://www.bilibili.com/video/BV1aP4y177x2/?spm_id_from=autoNext' # your video url
+dest = './1.m4a' 			# Resource storage location, which can be an absolute path or a relative path
+audio_or_video = 'audio' 	# Download audio or video
 
 me.bilibili(url=url, dest=dest, audio_or_video=audio_or_video)
 ```
